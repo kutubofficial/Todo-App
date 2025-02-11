@@ -6,7 +6,7 @@ const CreateTodo = ({ todo, handle, handleSubmit }) => {
       <form onSubmit={handleSubmit} className="flex gap-2">
         <input
           type="text"
-          placeholder="Enter todo"
+          placeholder="Enter todo.."
           value={todo}
           onChange={handle}
           className="border-2 border-gray-300 rounded-full px-6 py-2 w-64 focus:outline-none focus:border-amber-500 transition-colors duration-200"
